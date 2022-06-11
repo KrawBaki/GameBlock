@@ -37,6 +37,7 @@ function build(field, arr) {
         for(let num of sub) {
             let td = document.createElement('td')
             td.innerHTML = num
+            td.setAttribute('class','list-item' )
             cells.push(td)
             tr.appendChild(td)
         }
